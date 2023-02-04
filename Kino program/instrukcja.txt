@@ -1,0 +1,13 @@
+Aplikacja wymaga JDK w wersji min. 11 
+
+Konfiguracja bazy danych 
+1. Serwer bazy danych mysql 
+2. User: root 
+3. Hasło do root: password123 
+4. Hasło do admina: admin admin
+
+Projekt jest zbudowany przy uzyciu Maven, używalem do kodowania Intellij IDEA, ale projekt zbudowany przez Maven mozna zaimportowac do dowolnego innego IDE - i nie powinny wystapic komplikacje 
+
+Projekt mozna uruchomic przez IDE lub otwierajac terminal w glownym katalogu aplikacji i wpisujac "mvn clean javafx:run" - polecenie to wymaga zainstalowania Mavena na komputerze
+
+Skrypt dodaje konto admina - admin:admin oraz przykladowego usera - user:user, rejestrowane konta maja role USER 
